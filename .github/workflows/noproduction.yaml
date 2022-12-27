@@ -12,7 +12,7 @@ jobs:
       BUCKET_NAME: cfst-3457-af36ac14e85446ba27a2ee29d-nonprodbucket-93s76tvipbsf
     steps:
       - name: checkout code
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
       - name: configure aws cli
         uses: aws-actions/configure-aws-credentials@v1
         with:
